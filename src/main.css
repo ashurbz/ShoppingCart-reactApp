@@ -40,6 +40,9 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 166, 0);
+    width: 150px;
+    margin-left: 16px;
+    padding: 10px;
 }
 
 .item{
