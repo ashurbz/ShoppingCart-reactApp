@@ -86,3 +86,47 @@
     justify-content: space-around;
 
 }
+
+.placeOrder{
+
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+.order{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 5rem;
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+
+
+}
+h2{
+    text-align: center;
+}
+
+.order>div{
+    padding: 3rem;
+  overflow: auto;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+
+
+
+.placeOrder button{
+    float: right;
+    padding: 10px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    color: white;
+}

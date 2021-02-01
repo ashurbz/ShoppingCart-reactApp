@@ -11,6 +11,8 @@ function Home({setCartItems,cartItems}) {
       history.push("/")
     
     },[])
+  
+         
 
     console.log(cartItems)
     

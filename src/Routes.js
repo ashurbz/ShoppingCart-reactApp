@@ -75,6 +75,8 @@ const Routes = () => {
                      <Cart cartItems={cartItems}/>
             </Route>
             }
+           
+
               {loggedIn && <Route path="/" >
             <Home cartItems={cartItems} setCartItems={setCartItems}/>
             </Route>
