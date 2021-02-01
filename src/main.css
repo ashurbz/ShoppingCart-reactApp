@@ -58,3 +58,12 @@
     height: 100%;
     width: 100%;
 }
+
+.logo{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 129px;
+    top: 35px;
+    cursor: pointer;
+}

@@ -32,7 +32,15 @@ const Routes = () => {
         {" "}
         <div style={{ textAlign: "center" }}> Shopping Home </div>{" "}
         <div>
-          {loggedIn && (
+
+          {loggedIn&&<span >
+              <img className="logo" src="https://www.flaticon.com/svg/vstatic/svg/609/609496.svg?token=exp=1612157871~hmac=aa2e2fae6bee0e539e1e59224f0734c3" />
+              </span>
+
+          }
+          {loggedIn && 
+           
+              
             <Button
               variant="contained"
               color="primary"
@@ -41,7 +49,10 @@ const Routes = () => {
             >
               Logout
             </Button>
-          )}
+           
+          }
+
+
         </div>
       </div>
       <div className={"body"}>
