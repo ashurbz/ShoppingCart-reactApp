@@ -2,7 +2,17 @@ import React from 'react'
 
 function Cart({cartItems}) {
 
-      const [obj,setObj]=React.useState({});
+      const [obj,setObj]=React.useState([]);
+
+      for(item of cartItems){
+             
+     setObj(obj.concat([{
+       
+
+     }]))
+    
+
+      }
     
 
     return (
