@@ -1,33 +1,30 @@
-import React ,{useState} from 'react';
-import TextField  from '@material-ui/core/TextField';
+import React, { useState } from "react";
+import TextField from "@material-ui/core/TextField";
 
-function Textfild({state}) {
+function Textfild({ state }) {
   const [_name, setName] = useState("");
-  
 
-  function handleChange(e){
-      setName(e.target.value);
-      state.name=e.target.value;
+  function handleChange(e) {
+    setName(e.target.value);
+    state.name = e.target.value;
   }
-     
-    return (
-        <div>
-                                            <TextField 
-                                    variant='outlined'
-                                    margin='normal'
-                                    fullWidth
-                                    size='small'
-                                    value={_name}
-                                    name='name'
-                                    label='Name'
-                                   
-                                    id='name'
-                                 
-                                    autoComplete='name'
-                                    onChange={handleChange}
-                                />
-        </div>
-    )
+
+  return (
+    <div>
+      <TextField
+        variant="outlined"
+        margin="normal"
+        fullWidth
+        size="small"
+        value={_name}
+        name="name"
+        label="Name"
+        id="name"
+        autoComplete="name"
+        onChange={handleChange}
+      />
+    </div>
+  );
 }
 
-export default Textfild
+export default Textfild;
