@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 import { withStyles } from "@material-ui/core/styles";
 
 import LinearProgress from '@material-ui/core/LinearProgress';
-import {Redirect} from "react-router-dom"
+import { Route, Switch, Redirect } from "react-router-dom";
 import "./index.css";
 
 const styles = theme => ({
@@ -62,7 +62,9 @@ class index extends Component {
     else{
         localStorage.setItem("loggedIn",true)
         this.props.setLoggedIn(true);
+        
         return console.log("Success!!!");
+
         
     }
         

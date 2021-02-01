@@ -67,3 +67,22 @@
     top: 35px;
     cursor: pointer;
 }
+
+.key{
+ 
+}
+
+.key img{
+    width: 20px;
+    height: 20px;
+}
+
+.itemContainer{
+    width: max-content;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
