@@ -2,17 +2,11 @@ import React, { Component } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
 import Textfild from "./Textfield"
-import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-import PropTypes from 'prop-types';
 import { withStyles } from "@material-ui/core/styles";
-import InputLabel from '@material-ui/core/InputLabel';
-import FormControl from '@material-ui/core/FormControl';
-import MenuItem from '@material-ui/core/MenuItem';
-import Select from '@material-ui/core/Select';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import {Redirect} from "react-router-dom"
 
@@ -76,10 +70,7 @@ class index extends Component {
 console.log(this.state);
         const {
             email,
-            name,
             password,
-            role,
-            loader,
             login,msg
 
 
